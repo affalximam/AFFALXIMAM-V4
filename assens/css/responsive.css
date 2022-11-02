@@ -1,0 +1,72 @@
+@media screen and (max-width: 578px) {
+  body{
+    overflow-x: hidden;
+  }
+  .jumbotron .btn {
+    width: 50%;
+  }
+  .jumbotron{
+    overflow: hidden;
+  }
+  .jumbotron::after{
+    height: 93%;
+    max-width: 100%;
+    background-size: cover;
+  }
+  .about-1{
+    overflow-x: hidden;
+  }
+  .about-2 .container{
+    padding-top: 20px;
+  }
+  .about-2-1{
+    width: 200px;
+    height: 200px;
+  }
+  .skillbar{
+    width: 90%;
+  }
+  .skillbar-title{
+    width: 35%;
+  }
+  .wid .card{
+    width: 100%;
+  }
+  
+  .community-2{
+    width: 400px;
+  }
+  
+  .community-2-1 .community-2-1-1{
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+    animation: swiper-1-2 12s linear infinite;
+  }
+}
+
+@media screen and (max-width: 780px){
+  .nav-item{
+    width: 100%;
+  }
+  .about-2-1{
+    width: 250px;
+    height: 250px;
+  }
+  .community-2{
+    width: 400px;
+  }
+  .community-2-1 .community-2-1-1{ 
+    animation: swiper-1-2 12s linear infinite;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .nav-item{
+    width: 100px;
+  }
+  .jumbotron .btn{
+    width: 100%;
+  }
+}

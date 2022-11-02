@@ -1,0 +1,177 @@
+@keyframes jumbotron{ 
+  0%{ background-image: url('../image/jumb-bg-1.jpg'); }
+  30%{ background-image: url('../image/jumb-bg-1.jpg'); }
+  35%{ background-image: url('../image/jumb-bg-2.jpg'); }
+  70%{ background-image: url('../image/jumb-bg-2.jpg'); }
+  75%{ background-image: url('../image/jumb-bg-3.jpg'); }
+  95%{ background-image: url('../image/jumb-bg-3.jpg'); }
+  100%{ background-image: url('../image/jumb-bg-1.jpg'); }
+}
+
+@keyframes hobby{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes card-wid-image{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes swiper-1-1{
+  0%{
+    transform: translateX(400px);
+    opacity: 1;
+  }
+  1%{
+    transform: translateX(0px);
+  }
+  10%{
+    transform: translateX(0px);
+  }
+  11%{
+    transform: translateX(-400px);
+  }
+  20%{
+    transform: translateX(-400px);
+  }
+  21%{
+    transform: translateX(-800px);
+  }
+  30%{
+    transform: translateX(-800px);
+  }
+  31%{
+    transform: translateX(-1200px);
+  }
+  40%{
+    transform: translateX(-1200px);
+  }
+  41%{
+    transform: translateX(-1600px);
+  }
+  50%{
+    transform: translateX(-1600px);
+  }
+  51%{
+    transform: translateX(-2000px);
+  }
+  60%{
+    transform: translateX(-2000px);
+  }
+  61%{
+    transform: translateX(-2400px);
+  }
+  70%{
+    transform: translateX(-2400px);
+  }
+  71%{
+    transform: translateX(-2800px);
+  }
+  80%{
+    transform: translateX(-2800px);
+  }
+  81%{
+    transform: translateX(-3200px);
+  }
+  90%{
+    transform: translateX(-3200px);
+  }
+  91%{
+    transform: translateX(-3600px);
+  }
+  99%{
+    opacity: 1;
+  }
+  100%{
+    transform: translateX(-3600px);
+    opacity: 0;
+  }
+}
+
+
+@keyframes swiper-1-2{
+  0%{
+    transform: translateX(400px);
+    opacity: 1;
+  }
+  1%{
+    transform: translateX(0px);
+  }
+  10%{
+    transform: translateX(0px);
+  }
+  11%{
+    transform: translateX(-400px);
+  }
+  20%{
+    transform: translateX(-400px);
+  }
+  21%{
+    transform: translateX(-800px);
+  }
+  30%{
+    transform: translateX(-800px);
+  }
+  31%{
+    transform: translateX(-1200px);
+  }
+  40%{
+    transform: translateX(-1200px);
+  }
+  41%{
+    transform: translateX(-1600px);
+  }
+  50%{
+    transform: translateX(-1600px);
+  }
+  51%{
+    transform: translateX(-2000px);
+  }
+  60%{
+    transform: translateX(-2000px);
+  }
+  61%{
+    transform: translateX(-2400px);
+  }
+  70%{
+    transform: translateX(-2400px);
+  }
+  71%{
+    transform: translateX(-2800px);
+  }
+  80%{
+    transform: translateX(-2800px);
+  }
+  81%{
+    transform: translateX(-3200px);
+  }
+  90%{
+    transform: translateX(-3200px);
+  }
+  91%{
+    transform: translateX(-3600px);
+  }
+  99%{
+    opacity: 1;
+    transform: translateX(-3600px);
+  }
+  100%{
+    transform: translateX(-4000px);
+    opacity: 0;
+  }
+}
